@@ -1,0 +1,14 @@
+{
+  "name": "latam-tax-id-validator",
+  "version": "0.1.0",
+  "description": "Zero-dependency format and check-digit validators for LatAm tax IDs (CUIT/CUIL, RUT, RFC, CURP, CPF, CNPJ, NIT, RUC) and a CFDI 3.3/4.0 header parser.",
+  "main": "src/core.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/run_fixtures.js",
+    "example": "node examples/validate.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
